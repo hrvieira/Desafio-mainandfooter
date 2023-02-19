@@ -1,6 +1,20 @@
 /* Importação de fonte via Google Fonts --------- */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+/* Transferindo as cores para var --------- */
+
+:root {
+    --cerise-color: #DB1E8C;
+
+    --carnation-color: #FF97D3;
+
+    --pickled-bluewood-color: #33475B;
+
+    --white-color: #FFFFFF;
+
+    --cornflower-color: #264FEC;
+}
+
 /* Reset básico --------- */
 * {
     margin: 0;
@@ -10,14 +24,13 @@
 
 /* Body --------- */
 body {
-    background-color: #33475B;
-    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--pickled-bluewood-color) font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Header --------- */
 header {
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     display: flex;
 }
 
@@ -31,12 +44,12 @@ header {
 
 .titulo-principal {
     font-size: 24px;
-    color: #0000EE;
+    color: var(--cornflower-color);
     font-weight: 400;
 }
 
 .label-pesquisa {
-    background-color: #DB1E8C;
+    background-color: var(--cerise-color);
     height: 40px;
     padding: 8px;
     display: flex;
@@ -52,5 +65,5 @@ header {
 }
 
 ::placeholder {
-    color: #FF97D3;
+    color: var(--carnation-color);
 }
