@@ -17,16 +17,17 @@
 
 /* Reset básico --------- */
 * {
-    margin: 0;
+    /* margin: 0; 
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 /* Body --------- */
 body {
     background-color: var(--pickled-bluewood-color);
     font-family: 'IBM Plex Sans', sans-serif;
-    width: 1920px;
+    /* width: 1920px;
+    height: auto; */
 }
 
 /* Header --------- */
@@ -52,7 +53,7 @@ header {
 
 .label-pesquisa {
     background-color: var(--cerise-color);
-    height: 40px;
+    height: 30px;
     padding: 8px;
     display: flex;
     align-items: center;
