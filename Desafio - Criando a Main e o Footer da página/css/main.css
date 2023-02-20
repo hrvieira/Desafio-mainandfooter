@@ -43,8 +43,6 @@
 .titulos-trilha {
   font-weight: 600;
   margin-bottom: 24px;
-  /* font-family: 'IBM Plex Sans';
-  font-style: normal; */
   font-size: 24px;
   line-height: 31px;
 
@@ -52,24 +50,18 @@
 }
 
 .texto-trilha {
-  font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   flex: auto;
-  /* margin-bottom: 21px;
-   flex-grow: 0.5; */
 
   color: #000000;
 }
 
 .botao-ementa {
-  font-family: 'IBM Plex Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
 
   color: var(--cornflower-color);
 
@@ -82,6 +74,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* align-self: baseline; */
 }
