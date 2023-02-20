@@ -1,0 +1,36 @@
+.trilhas {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.trilhas ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trilhas li {
+  padding: 50px;
+}
+
+.box-trilha {
+  background: var(--white-color);
+  width: 300px;
+  height: 444.74px;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.titulos-trilha {
+  font-size: 24px;
+  color: var(--pickled-bluewood-color);
+  font-weight: 600;
+}
+
+.texto-trilha {
+  width: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
