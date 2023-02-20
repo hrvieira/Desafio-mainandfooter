@@ -13,6 +13,8 @@
     --white-color: #FFFFFF;
 
     --cornflower-color: #264FEC;
+
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Reset básico --------- */
@@ -25,7 +27,6 @@
 /* Body --------- */
 body {
     background-color: var(--pickled-bluewood-color);
-    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Header --------- */
@@ -47,6 +48,8 @@ header {
     font-size: 24px;
     color: var(--cornflower-color);
     font-weight: 400;
+    font-style: normal;
+    margin-left: 180px;
 }
 
 .label-pesquisa {
